@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*- yamabee
 
 import tkinter as tk
 # python2の場合は、import Tkinter as tk
