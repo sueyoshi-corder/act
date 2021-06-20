@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[111]:
+# In[114]:
 
 
 # tkinterのインポート
@@ -66,6 +66,10 @@ label6 = tk.Label(root,text="番号",font=("",10),anchor = "w",fg="mediumblue",h
 label6.place(x = 670, y = 190)
 num_box = tk.Entry(width = 10)
 num_box.place(x = 680, y = 220)
+
+# リスト検索ボタン
+list_sarch_button = tk.Button(root,text="検索",font=("",10),width=10,bg="gray",fg="white")
+list_sarch_button.place(x = 70, y = 280)
 
 # ステータスバー設置 <---追加するコード
 statusbar = tk.Label(root, text =  " No Data!!",bd=1,relief=tk.SUNKEN,anchor=tk.W)
